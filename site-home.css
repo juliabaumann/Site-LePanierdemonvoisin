@@ -35,8 +35,8 @@
     padding: 40px 0px;
     position: relative;
     text-align: center;
-    width: 100%;
-    height : 40%;
+    width: 2000x;
+    height : 400px;
   }
 
   .photo a {
@@ -56,6 +56,10 @@
     color: red;
   }
 
+  .strawberry {
+    width:500px;
+    height: 190px;
+  }
   .schema { 
     background: lightgrey;
     position: relative;
