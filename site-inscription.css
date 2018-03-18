@@ -29,7 +29,7 @@
     width: 100%;
     height : 330px;
     margin-top:10px;
-    background-color:#FDBFB7;
+    background-color:#708090;
     position:relative;
     top:90px;
   }
@@ -46,23 +46,23 @@
     background-color: white;
   }
 
-  .message {
+  table {
         position: relative;
         bottom:250px;
         text-align: center;
         width: 100%;
-        height: 8%;
         border-collapse: separate;
+        border-spacing: 200px 0px;
  }
 
- .message a {
+ table td {
     background:white;
     border: 1px solid black;
     border-radius: 4px;
     color: black;
-    width:23%;
+    width:20px;
+    padding:12px;
     display: inline-block;
-    padding:18px;
     text-decoration: none;
     font-family: "Shadows Into Light Two", cursive;
     font-size: 18px;
