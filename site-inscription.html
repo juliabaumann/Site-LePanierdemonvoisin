@@ -14,19 +14,48 @@
         </div>
 
         <div class="photo">
-            <img src="inscription 600x330.jpg"/>  
+            <img src="basket 1000x335.jpg"/>  
         </div>
         
         <div class="slogan">
             <h1> Rejoignez la communauté de l'anti-gaspi alimentaire !</h1>
         </div>
 
-        <table class="message">
-            <tr>
-                <td>Accédez à tous les paniers de particuliers autour de chez vous</td>
-                <td>Donnez ou vendez librement les vôtres, où vous voulez</td>
-            </tr>
-        </table>
+        <form method="post" action="traitement.php">
+                <p>
+                    <div>
+                        <label for="nom">Votre nom :</label>  <input type="text" name="nom" id="nom" placeholder="Ex : Dupond" required/>
+                    </div>
+                    <div>
+                        <label for="prénom"> Votre prénom :</label>  <input type="text" name="prénom" id="prénom" placeholder="Ex : Lisa" required/>
+                    </div>
+                    <div>
+                        <label for="pseudo">Votre pseudo :</label>  <input type="text" name="pseudo" id="pseudo" placeholder="Ex : L.Dupond" required/>
+                    </div>
+                    <div>
+                        <label for="motdepasse">Votre mot de passe :</label>  <input type="password" name="mot de passe" id="mot de passe" required/>
+                    </div>
+                    <div>
+                        <label for="adresse">Saisissez votre adresse :</label> <textarea name="adresse" id="adresse" placeholder="Ex : 30 rue du Chemin Vert" required></textarea>
+                    </div>
+                    <div>
+                        <label for="code postal">Code postal :</label>  <input type="text" name="code postal" id="code postal" placeholder="Ex : 92100" required/>
+                    </div>
+                    <div>
+                        <label for="pays">Pays :</label>  <input type="text" name="pays" id="pays" placeholder="Ex : France" required/>
+                     </div>
+                     <div>
+                        <label for="email">Votre e-mail :</label>  <input type="email" name="email" id="email" placeholder="Ex : l.dupond@gmail.com" required/>
+                    </div>
+                    <div>
+                        <label for="tel">Votre N° de téléphone :</label>  <input type="tel" name="tel" id="tel" placeholder="Ex : 06 65 43 58 76" required/>
+                    </div>
+                </p> 
+
+                <div class="button">
+                <button type="submit"> Rejoindre la communauté </button>
+                </div>
+            </form>
 
 
 </html>
