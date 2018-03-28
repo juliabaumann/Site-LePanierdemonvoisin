@@ -6,6 +6,13 @@
     height: 60px;
     z-index: 3;
   }
+
+  .logo {
+    padding: 0;
+    margin: 0;
+    display: block;
+    float:left;
+  }
   
   .header a {
     font-family: 'Hind Guntur', sans-serif;
@@ -25,13 +32,6 @@
 
   .background { 
     height: 600px;
-    background: repeating-linear-gradient(
-      -45deg,
-      #f4aa9c,
-      #f4aa9c 5px,
-      white 5px,
-      white 60px
-    );
     position: relative;
     z-index: 1;
   }
@@ -40,21 +40,21 @@
     background-color: white;
     padding: 20px 20px;
     position: relative;
-    bottom: 480px;
+    bottom: 450px;
     text-align: center;
     margin: 0px 250px;
     border: 2px solid black;
     z-index: 2;
     border: 1px solid black;
     border-style:double;
-    border-width:5px;
+    border-width: 5px;
     border-radius: 2px;
-    background-color:white;
-    border-color:#30B0B0;
+    background-color: white;
+    border-color: #30B0B0;
   }
 
   .concept_text {
-    font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     line-height: 1.4;
     margin-bottom: 200px;
     font-size: 20px;
@@ -63,9 +63,11 @@
 
   .bonasavoir {
       background-color: white;
+      position: relative;
+      bottom: 200px;
       padding: 10px;
       text-align: left;
-      font-family: 'Hind Guntur', sans-serif;
+      font-family: 'Didact Gothic', sans-serif;
   }
 
   .comment {
@@ -79,7 +81,7 @@
   }
   
   .comment_text {
-    font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 200px;
     font-size: 20px;
     color: black;
@@ -112,7 +114,7 @@
 }
 
   .footer {
-    border-top: 2px solid Black;
+    border-top: 1px solid Black;
     position: relative;
     text-align: center;
     margin: 0px 150px;
@@ -129,7 +131,7 @@
   }
   
   .footer a:hover {
-    color: #f03060;
+    font-weight: bold;
   }
 
   h1 {
@@ -145,7 +147,7 @@
   }
 
   li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     letter-spacing: 0.10em;
   }
