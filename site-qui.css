@@ -22,3 +22,23 @@
   .header a:hover {
     font-weight: bold;
   }
+
+  .photo { 
+    height: 100%;
+    z-index: 1;
+    display: inline-block;
+  }
+
+  .qui {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .story {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
