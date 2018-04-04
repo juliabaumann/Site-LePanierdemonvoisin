@@ -35,14 +35,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-<<<<<<< HEAD:site-qui.css
-  .story {
-=======
   .story{
->>>>>>> 533342e29e82f7f1a635c6d59b28350600e342ce:static/site-qui.css
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:10px;
+  }
+
+  h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .h2 {
+  h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .personne {
+    display : block ;
   }
