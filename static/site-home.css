@@ -119,7 +119,7 @@
   }
 
   .economique {
-    background: #E71D36;
+    background: #D00060;
     color: white;
     text-align: left;
   }
@@ -130,7 +130,7 @@
   }
 
   .rapide {
-    background: #E71D36;
+    background: #D00060;
     color: white;
     text-align: left;
   }
@@ -353,7 +353,7 @@
   .securise {
     grid-column-start: 3;
     grid-column-end: 5;
-    background: #E71D36;
+    background: #D00060;
     color: white;
   }
 
@@ -484,7 +484,7 @@
   .rapide {
     grid-column-start: 1;
     grid-column-end: 5;
-    background: #E71D36;
+    background: #D00060;
     color: white;
   }
 
