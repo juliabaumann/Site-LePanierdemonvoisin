@@ -71,6 +71,7 @@ margin-left:60px;
     top:150px;
     margin: 0 auto;
     width: 500px;
+    height:450px;
     padding: 1px;
     border: 1px solid black;
     border-style:double;
@@ -106,18 +107,28 @@ margin-left:60px;
 
   textarea {
     vertical-align: top;
-    height: 40px;
+    height: 60px;
   }
 
-  button {
+  .button {
     text-align:center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:40%;
     font-size:18px;
+    position:relative;
+    left:160px;
+    top:30px;
     border-radius:3px;
     border-style:none;
-    background-color:#CD5C5C;
-    border-color:white;
-    color:white;
+    }
+
+  button {
+  background-color: #D00060;
+  border-color:#D00060;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size:15px;
+  border-radius:3px;
+  color:white;
   }
 
   .footer {
@@ -159,7 +170,7 @@ margin-left:60px;
   @media screen and (max-width: 1086px) {
 
   .slogan {
-      top: 180px;
+      top: 190px;
       padding: 2px;
       font-size: 12px;
       width: auto;
@@ -199,4 +210,40 @@ margin-left:60px;
     top:200px;
   }  
 
+form {
+    position:relative;
+    top:200px;
+    margin: 0 auto;
+    max-width:95%;
+    height:500px;
   }
+
+.button {
+  width:60%;
+  left:70px;
+}
+
+.footer {
+  top: 300px;
+}
+
+.footer a {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+  }
+
+  @media screen and (max-width: 800px) {
+
+.footer a {
+  font-size: 10px;
+    }
+
+form {
+  height:600px;
+    }    
+
+}
