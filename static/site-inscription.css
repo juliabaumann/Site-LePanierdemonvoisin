@@ -134,14 +134,15 @@ margin-left:60px;
   .footer {
     border-top: 1px solid Black;
     position: relative;
-    top:300px;
+    top: 190px;
     text-align: center;
     margin: 0px 150px;
     z-index:2;
   }
   
   .footer a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 14px;
     color: black;
     display: inline-block;
     margin: 10px;
@@ -151,6 +152,20 @@ margin-left:60px;
   
   .footer a:hover {
     font-weight: bold;
+  }
+
+  .copyright {
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: 160px;
+  }
+
+  .logo_fin {
+    position: relative;
+    top: 180px;
+    text-align: center;
   }
 
   #container
@@ -234,12 +249,32 @@ form {
   text-decoration: none;
 }
 
+.copyright {
+  top: 280px;
+}
+
+.logo_fin {
+  top: 300px;
+}
+
   }
 
   @media screen and (max-width: 800px) {
 
-.footer a {
+    .footer {
+      top: 270px;
+    }
+
+    .footer a {
   font-size: 10px;
+    }
+
+    .copyright {
+      top: 280px;
+    }
+    
+    .logo_fin {
+      top: 300px;
     }
 
 form {
