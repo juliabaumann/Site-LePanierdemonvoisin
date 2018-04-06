@@ -1,52 +1,93 @@
 .header {
-  background-color: #30B0B0;
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  height: 60px;
-  z-index: 2;
-}
-
-.logo {
-  padding: 0;
-  margin: 0;
-  display: block;
-  float:left;
-}
-
-.header a {
-  font-family: 'Hind Guntur', sans-serif;
-  border-radius:6px;
-  font-size: 14px;
-  color: white;
-  display: inline-block;
-  text-transform :uppercase;
-  margin: 10px;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.header a:hover {
-  font-weight: bold;
-}
-
-.footer {
-    border-top: 1px solid Black;
-    position: relative;
+    background-color: #30B0B0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
     text-align: center;
-    margin: 0px 150px;
-    z-index:2;
   }
   
-  .footer a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    display: inline-block;
-    margin: 10px;
-    padding: 14px;
+  .logo {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .header a {
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .accueil a {
     text-decoration: none;
+    position: relative;
+    top: 18px;
+    margin-left: 60px;
   }
   
-  .footer a:hover {
+  .comment a {
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+  }
+  
+  .qui a {
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+    margin-left: 15px;
+  }
+  
+  .header a:hover {
     font-weight: bold;
   }
+  
+
+h1 {
+    margin : 20 50 20 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    margin : 20 50 20 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3 {
+    margin : 20 50 20 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+    margin : 20 50 20 50;
+    text-justify: distribute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1086px) {
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      height: 170px;
+    }    
+    
+    .accueil a {
+      margin-left: 0px;
+    }
+        
+    .logo {
+      text-align: center;
+      grid-column-start:1;
+      grid-column-end:8;
+    }
+
+}
